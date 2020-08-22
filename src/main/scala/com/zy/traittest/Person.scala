@@ -10,12 +10,6 @@ package com.zy.traittest
   */
 class Person(name:String,age:Int,fv:Int) extends Ordered[Person] with Serializable {
   override def compare(that: Person): Int = {
-    if(this.age < that.age){
-      -1
-    }else if (this.age == that.age) {
-      0
-    }else{
-      1
-    }
+    0
   }
 }
