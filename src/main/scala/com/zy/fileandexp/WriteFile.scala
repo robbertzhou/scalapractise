@@ -9,10 +9,10 @@ import java.io.PrintWriter
   */
 object WriteFile {
   def main(args: Array[String]): Unit = {
-    val pw = new PrintWriter("file.txt")
-    for (i<- 1 to 100){
-      pw.println(i)
-    }
-    pw.close()
+//    val pw = new PrintWriter("file.txt")
+//    for (i<- 1 to 100){
+//      pw.println(i)
+//    }
+//    pw.close()
   }
 }
