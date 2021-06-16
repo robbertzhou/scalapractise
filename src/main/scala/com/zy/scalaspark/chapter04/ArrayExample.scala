@@ -12,6 +12,7 @@ package com.zy.scalaspark.chapter04
  */
 object ArrayExample{
   def main(args: Array[String]): Unit = {
+    val tr : scala.collection.Traversable[String] = null
 //    val numbers:Array[Int] = Array(1,2,3,4,5,1,2,3,4,5)
 //    println("print full array:")
 //    for(i <- numbers){
